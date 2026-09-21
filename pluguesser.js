@@ -55,7 +55,7 @@ document.getElementById("guess-form").addEventListener("submit", e => {
         status_out.innerHTML = "You win! :)";
     } else {
         status_out.style = "color:red";
-        status_out.innerHTML = "<p>You lose! :(";
+        status_out.innerHTML = "You lose! :(";
     }
 
     setTimeout(() => window.location.reload(), 2000);
