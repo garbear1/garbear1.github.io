@@ -11,10 +11,12 @@
     <h1>Guess the PLU!</h1>
     <h3 id="product"></h3>
 
-    <form id="guess-form">
-        <input type="number" id="guess" name="guess" required />
+    <form id="guess-form" autocomplete="off">
+        <input type="number" id="guess" name="guess" required autofocus />
 
         <button type="submit">Guess!</button>
     </form>
+
+    <h2 id="status"></h2>
 </body>
 </html>
